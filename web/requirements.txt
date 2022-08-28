@@ -1,0 +1,8 @@
+Django==3.1.1
+python-dotenv
+django-adminlte3==0.1.6
+django-mysql==3.8.1
+djangorestframework==3.13.1
+mysqlclient==2.0.1
+Scrapy==2.6.2
+scrapy_djangoitem

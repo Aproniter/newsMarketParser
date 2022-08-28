@@ -1,0 +1,13 @@
+{% extends 'dashboard/base.html' %}
+
+{% block content %}
+<a href="{% url 'new_parse'%}">Обновить</a></br>
+{% for news in news_list %}
+<p style="padding: 10px; margin: 10px; border: 1px solid black; border-radius: 5px; background-color: rgba(134, 151, 165, 0.452);">
+    {{news.title}}
+    {{news.text}}
+    {{news.url}}
+    {{news.tags}}
+</p>
+{% endfor %}
+{% endblock %}
