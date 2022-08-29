@@ -22,3 +22,7 @@ MySQL
 
 **News Market Parser API**
 Получить список новостей из базы: /api/news/
+
+
+### Screencast
+- https://drive.google.com/file/d/1iNxC2j4e9nHjSO2jWtmPhyRnlsW3jdhl/view?usp=drivesdk
